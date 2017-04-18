@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:id="@+id/date" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter year"
+            android:inputType="number" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/make"
+        android:hint="Enter make" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/model"
+        android:hint="Enter model" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/price"
+        android:hint="Enter price" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/vin"
+        android:hint="Enter vin #" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/mileage"
+        android:hint="Enter mileage" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/notes"
+        android:hint="Enter notes" />
+
+
+        <Switch
+            android:id="@+id/rented"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rented" />
+
+        <Button
+        android:text="take pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2" />
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
